@@ -9,7 +9,7 @@ class DataProcessor:
         """
         processed_df = df.copy()
 
-        features = ['amount', 'oldbalanceOrg', 'newbalanceOrig', 'oldbalanceDest','newbalanceDest']
+        features = ['amount', 'oldbalanceOrg', 'newbalanceOrg', 'oldbalanceDest','newbalanceDest']
 
         processed_df = processed_df.dropna(subset=features)
 
